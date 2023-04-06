@@ -37,20 +37,7 @@ h2 {
   font-family: Arial rgb(255, 255, 255);
   font-weight: bold; 
   font-size: 40px; 
-  background: #5cd9ff; 
-  -webkit-background-clip: text; 
-  -moz-background-clip: text; 
-  background-clip: text; 
-  color: transparent; 
-  text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3)
-}
-
-h3 {
-  text-align: center; 
-  font-family: Arial rgb(255, 255, 255);
-  font-weight: bold; 
-  font-size: 30px; 
-  background: #5cd9ff; 
+  background: #e1ff38; 
   -webkit-background-clip: text; 
   -moz-background-clip: text; 
   background-clip: text; 
@@ -175,7 +162,6 @@ h3 {
 }
 
 footer u{
-  text-align: center;
   font-size: 20px;
   font-weight: 250px;
   text-align: right;
@@ -272,11 +258,11 @@ footer p:hover{
 }
 
 .btn .icon {
-  position: absolute;
+  position: center;
   height: 40px;
   width: 70px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
   transition: all 0.5s;
 }
@@ -664,4 +650,38 @@ footer p:hover{
     transform-origin: center;
     transform: translateY(0em);
   }
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 250px;
+  text-align: center;
+  text-decoration: rgb(0, 153, 255);
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  transition: 0.5s ease;
+}
+h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 250px;
+  text-align: center;
+  text-decoration: rgb(0, 153, 255);
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  transition: 0.5s ease;
+}
+h5 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 250px;
+  text-align: center;
+  text-decoration: rgb(0, 153, 255);
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  transition: 0.5s ease;
 }
