@@ -342,9 +342,21 @@ section img:hover {
   width: 1.1em;
 }
 
-.svg-card:hover {
+.svg-card:hover .whats {
   cursor: pointer;
-  color: hsl(192, 100%, 100%);
+  color: hsl(130, 72%, 45%);
+}
+.svg-card:hover .face {
+  cursor: pointer;
+  color: hsl(239, 100%, 62%);
+}
+.svg-card:hover .twit {
+  cursor: pointer;
+  color: hsl(182, 76%, 49%);
+}
+.svg-card:hover .insta {
+  cursor: pointer;
+  color: hsl(36, 86%, 46%);
 }
 
 .card-footer {
